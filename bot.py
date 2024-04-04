@@ -23,7 +23,7 @@ if STRING:
     for app in apps:
         app.start()
         me = app.get_me()
-        prine(me.username)
+        print(me.username)
     idle()
     for app in apps:
         app.stop()
