@@ -19,7 +19,7 @@ bot = Client(
 
 if STRING:
     apps = [Client2,bot]
-    print(4Gb boooy")
+    print("4Gb boooy")
     for app in apps:
         app.start()
         me = app.get_me()
